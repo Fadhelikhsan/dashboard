@@ -5,7 +5,7 @@ import 'package:fitness/view/main_tab/select_view.dart';
 import 'package:flutter/material.dart';
 
 import '../home/home_view.dart';
-import '../photo_progress/photo_progress_view.dart';
+// import '../photo_progress/photo_progress_view.dart';
 import '../profile/profile_view.dart';
 import '../workout_tracker/workout_tracker_view.dart';
 
@@ -44,7 +44,7 @@ class _MainTabViewState extends State<MainTabView> {
                       color: Colors.black12,
                       blurRadius: 2,)
                 ]),
-            child: Icon(Icons.search,color: TColor.white, size: 35, ),
+            child: Icon(Icons.place,color: TColor.white, size: 35, ),
           ),
         ),
       ),
@@ -87,7 +87,7 @@ class _MainTabViewState extends State<MainTabView> {
                 isActive: selectTab == 2,
                 onTap: () {
                   selectTab = 2;
-                   currentTab = const PhotoProgressView();
+                  //  currentTab = const PhotoProgressView();
                   if (mounted) {
                     setState(() {});
                   }

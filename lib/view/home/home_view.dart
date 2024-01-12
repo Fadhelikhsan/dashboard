@@ -78,11 +78,11 @@ class _HomeViewState extends State<HomeView> {
       ];
 
   List waterArr = [
-    {"title": "6am - 8am", "subtitle": "600ml"},
-    {"title": "9am - 11am", "subtitle": "500ml"},
-    {"title": "11am - 2pm", "subtitle": "1000ml"},
-    {"title": "2pm - 4pm", "subtitle": "700ml"},
-    {"title": "4pm - now", "subtitle": "900ml"},
+    {"title": "6am - 8am", "subtitle": "600m"},
+    {"title": "9am - 11am", "subtitle": "500m"},
+    {"title": "11am - 2pm", "subtitle": "1000m"},
+    {"title": "2pm - 4pm", "subtitle": "700m"},
+    {"title": "4pm - now", "subtitle": "900m"},
   ];
 
   @override
@@ -131,7 +131,7 @@ class _HomeViewState extends State<HomeView> {
                           style: TextStyle(color: TColor.gray, fontSize: 12),
                         ),
                         Text(
-                          "Stefani Wong",
+                          "Aysa Sabrina",
                           style: TextStyle(
                               color: TColor.black,
                               fontSize: 20,
@@ -182,14 +182,14 @@ class _HomeViewState extends State<HomeView> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "BMI (Body Mass Index)",
+                                "IBP (Invasive Blood Pressure)",
                                 style: TextStyle(
                                     color: TColor.white,
                                     fontSize: 14,
                                     fontWeight: FontWeight.w700),
                               ),
                               Text(
-                                "You have a normal weight",
+                                "You have a normal blood pressure",
                                 style: TextStyle(
                                     color: TColor.white.withOpacity(0.7),
                                     fontSize: 12),
@@ -472,7 +472,7 @@ class _HomeViewState extends State<HomeView> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "Water Intake",
+                                  "Foot Steps",
                                   style: TextStyle(
                                       color: TColor.black,
                                       fontSize: 12,
@@ -489,7 +489,7 @@ class _HomeViewState extends State<HomeView> {
                                             0, 0, bounds.width, bounds.height));
                                   },
                                   child: Text(
-                                    "4 Liters",
+                                    "4 Kilometers",
                                     style: TextStyle(
                                         color: TColor.white.withOpacity(0.7),
                                         fontWeight: FontWeight.w700,
@@ -744,7 +744,7 @@ class _HomeViewState extends State<HomeView> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      "Workout Progress",
+                      "Health Progress",
                       style: TextStyle(
                           color: TColor.black,
                           fontSize: 16,
